@@ -17,3 +17,6 @@ dependencies = [
 
 [project.scripts]
 fedcontracts = "fedcontracts.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["fedcontracts"]
